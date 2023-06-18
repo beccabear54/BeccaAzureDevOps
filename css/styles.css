@@ -1,0 +1,204 @@
+/* Main */
+
+.container-fluid {
+  padding: 1% 10%;
+}
+
+h2 {
+  line-height: 1.5em;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar {
+  /* padding: 0 0 4.5rem; */
+  margin: auto;
+}
+.navContainer {
+  width: 70%;
+}
+.navbar-brand {
+  font-family: "Lobster";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2d1674;
+}
+
+.navbarLogo {
+  height: 100px;
+
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-weight: 900;
+  font-size: 1.3rem;
+  color: #2d1674;
+}
+
+
+
+/* Title */
+#title {
+  background-color: #2d1674;
+  color: white;
+  padding-top: 15%;
+}
+
+.carouselContainer {
+  padding: 0;
+  text-align: center;
+}
+
+
+.titleCarousel {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 5% 15%;
+}
+
+
+.rainbowWord1{
+  background: linear-gradient(to right, #b175ff, #C996CC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.rainbowWord2{
+  background: linear-gradient(to left, #b175ff, #C996CC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.titleButtons {
+  text-align: center;
+}
+
+.contact-btn {
+  background-color: #b175ff;
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Features */
+#features {
+  text-align: center;
+}
+
+.featureHeader {
+  font-weight: 900;
+  color: #2d1674;
+  padding: 3%;
+}
+
+.feature-title {
+  font-weight: 900;
+  line-height: 1.5;
+  color: #2d1674;
+}
+
+.features-row{
+  padding: 5% 5%;
+}
+
+.beccaName {
+  font-family: "Lobster";
+  background: linear-gradient(to right, #b175ff, #C996CC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.featureLeftSide{
+  width: 90%;
+  padding: 30% 2% 0 5%;
+}
+
+
+.featureColLeft {
+  padding: 50px 1%;
+}
+
+.featureColRight {
+  padding: 50px 3%;
+}
+
+.feature-img {
+  color: #b175ff;
+}
+
+.feature-img:hover {
+  color: #C996CC;
+}
+
+
+/* Testimonials  */
+
+/* changed */
+#testimonials {
+  text-align: center;
+  color: #fff;
+}
+
+
+
+/* new */
+.autoMargin {
+  margin-left: 6%;
+}
+
+.reviewBg {
+  background-color: #655DBB;
+  border-radius: 4%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.reviewPhoto {
+  border-radius: 10px 100px / 120px;
+  padding: 5%;
+  width: 50%;
+}
+
+
+
+.reviewTitle{
+  font-family: "Lobster";
+  color: white;
+  font-weight: 600;
+}
+
+.reviewText {
+  color: white;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 5%;
+
+}
+.extraWeight {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+#footer {
+  padding-top: 3%;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  .navbarLogo {
+    height: 30px;
+  }
+
+}
